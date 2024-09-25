@@ -1,0 +1,128 @@
+body {
+    background: linear-gradient(135deg, #dfe8d1, #a3c4a8, #88b097);
+    color: #2f4f4f;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #88b097;
+    color: white;
+    border-bottom: 4px solid #a3c4a8;
+}
+
+nav {
+    background-color: #6b8e23; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #88b097;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+
+main {
+    background-color: #ffffff;
+    color: #2f4f4f;
+    margin: 20px auto;
+    padding: 2rem;
+    width: 80%;
+    max-width: 1000px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #6b8e23;
+    text-shadow: 1px 1px #fff;
+}
+
+
+button {
+    background-color: #88b097;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+img {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6b8e23;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+
+p:hover {
+    background-color: #88b097;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+
+a {
+    color: #6b8e23;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #6b8e23;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
