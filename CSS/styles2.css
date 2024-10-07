@@ -36,16 +36,9 @@ nav ul li a {
     color: white; 
     font-weight: bold;
     padding: 10px;
-    background-color: transparent; 
-    transition: background-color 0.3s ease; 
 }
 
-nav ul li a:hover {
-    background-color: #88b097; 
-    color: #fff; 
-    padding: 10px 15px; 
-    border-radius: 4px;
-}
+
 
 
 
