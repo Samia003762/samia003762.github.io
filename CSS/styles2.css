@@ -39,12 +39,7 @@ nav ul li a {
 }
 
 
-a:hover {
-    color: #fff;
-    background-color: #6b8e23;
-    padding: 2px 4px;
-    border-radius: 4px;
-}
+
 a { 
     color: #6b8e23; 
     text-decoration: none; 
